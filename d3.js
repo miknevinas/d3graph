@@ -44,15 +44,15 @@ function showChart() {
         yRange = d3.scale.linear().range([height - margins.top, margins.bottom]).domain([0,100]),
 
         xAxis = d3.svg.axis()
-    .scale(xRange)
-    .tickSize(5)
-    .tickSubdivide(true),
+            .scale(xRange)
+            .tickSize(5)
+            .tickSubdivide(true),
 
         yAxis = d3.svg.axis()
-    .scale(yRange)
-    .tickSize(5)
-    .orient("left")
-    .tickSubdivide(true);
+            .scale(yRange)
+            .tickSize(5)
+            .orient("left")
+            .tickSubdivide(true);
 
 
     chart.append('svg:g')
