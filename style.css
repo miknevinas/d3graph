@@ -1,20 +1,28 @@
-.axis path, .axis line
-{
+.axis path, .axis line {
     fill: none;
     stroke: #777;
-    shape-rendering: crispEdges;
 }
 
-.axis text
-{
-    font-family: 'Arial';
+.axis text {
+    font-family: 'Josefin Slab';
     font-size: 13px;
 }
-.tick
-{
+.tick {
     stroke-dasharray: 1, 2;
 }
-.bar
-{
-    fill: FireBrick;
+
+body {
+    background-image: url("wood_1.png");
+}
+
+.graph {
+    margin: auto;
+    text-align: center;
+}
+
+.legend {
+    font-size: 12px;
+}
+rect {
+    stroke-width: 2;
 }
